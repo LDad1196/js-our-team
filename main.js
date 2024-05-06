@@ -16,6 +16,6 @@ let team =[ceo, chief, office, social, developer, graphic]
 console.log(team)
 
 for (let index = 0; index < team.length; index++) {
-    const element = array[index];
-    
+    const elemento = team[index];
+    console.log( team[index].nome, team[index].ruolo)
 }
